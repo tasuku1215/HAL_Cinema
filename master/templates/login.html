@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Shinzo SAITO">
+        <title>ログイン | HAL映画館　マスター管理</title>
+        <link rel="stylesheet" href="/ph34/movieTheater/public/css/main.css" type="text/css">
+    </head>
+    <body>
+        <h1>ログイン</h1>
+        {% if validationMsgs %}
+        <section id="errorMsg">
+            <p>以下のメッセージをご確認ください。</p>
+            <ul>
+                {% for msg in validationMsgs %}
+                <li>{{msg}}</li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+        <section>
+            <p>
+                IDとパスワードを入力し、ログインをクリックしてください。
+            </p>
+            <form action="/ph34/movieTheater/public/login.php" method="post">
+                <dl>
+                    <dt>ID</dt>
+                    <dd>
+                        <input type="text" id="loginId" name="loginId" value="{{loginId}}" required>
+                    </dd>
+                    <dt>パスワード</dt>
+                    <dd>
+                        <input type="password" id="loginPw" name="loginPw" required>
+                    </dd>
+                </dl>
+                <button type="submit">ログイン</button>
+            </form>
+        </section>
+    </body>
+</html>
