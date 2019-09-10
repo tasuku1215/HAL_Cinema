@@ -2,25 +2,40 @@
 <html lang="ja" dir="ltr">
 
 <head>
-    <meta name="author" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>HALCinema</title>
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Monoton|Sacramento|Tangerine&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Monoton|Sacramento|Tangerine&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/hamburger.css">
+    <link rel="stylesheet" type="text/css" href="./css/slider.css">
+    <link rel="stylesheet" type="text/css" href="./css/landing.css">
     <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./js/hamburger.js"></script>
 </head>
 
 <body>
     <header>
-        <h1>HAL Cinema</h1>
+        <h1><a href="index.html">HAL Cinema</a></h1>
     </header>
 
+    <div id="container">
+        <div id="slider">
+            <section class="s-wrap">
+                <div class="box">
+                    <img src="./img/Alien.jpg" alt="topScroll" class="slide-item">
+                </div>
+                <div class="box">
+                    <img src="./img/thesha.jpg" alt="topScroll" class="slide-item">
+                </div>
+                <div class="box">
+                    <img src="./img/Godfather.png" alt="topScroll" class="slide-item">
+                </div>
+            </section>
+        </div>
+    </div>
     <article>
-        <section>
-            <h2>上映中の映画</h2>
-            <img src="./img/Alien.jpg" alt="topScroll">
-            <img src="./img/thesha.jpg" alt="topScroll">
-            <img src="./img/Godfather.png" alt="topScroll">
-        </section>
         <section>
             <h2>HAL Cinemaについて</h2>
             <div class="content">
