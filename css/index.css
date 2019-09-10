@@ -27,3 +27,7 @@ header h1 {
   word-wrap: none;
   font-family: 'Monoton';
 }
+
+footer {
+  text-align: center;
+}
