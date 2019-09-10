@@ -53,3 +53,13 @@ header h1 {
 footer {
   text-align: center;
 }
+
+.box {
+  width: 90vw;
+  margin: auto;
+}
+
+.box img {
+  width: 90vw;
+  height: 100%;
+}
