@@ -1,33 +1,74 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
+/**/
+
+.box {
+    width: 90vw;
+    margin: auto;
 }
 
-body {
-  background-color: white;
+.box img {
+    width: 90vw;
+    height: 100%;
 }
 
-header {
-  width: 100%;
-  height: 80px;
-  background-color: white;
-  box-shadow: 0px 0px 5px maroon;
-  z-index: 10000;
-  display: flex;
-  position: relative;
-  margin-bottom: 10px;
+/**/
+
+#money {
+    width: 80vw;
+    margin: auto;
 }
 
-header h1 {
-  font-size: 25pt;
-  padding: 15px 0px 0px 20px;
-  color: black;
-  word-wrap: none;
-  font-family: 'Monoton';
+#money h2 {
+    padding: 10px;
 }
 
-footer {
-  text-align: center;
+#money table {
+    width: 80vw;
+}
+
+#money th {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px dotted black;
+    border-collapse: collapse;
+}
+
+#money td {
+    text-align: right;
+    border-bottom: 1px dotted black;
+    border-collapse: collapse;
+}
+
+/**/
+
+.calen {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.calen h2 {
+    text-indent: 1em;
+}
+
+.calen .date {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-flow: row nowrap;
+    overflow: scroll;
+}
+
+.date .movies {
+    width: 30%;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.date .movies:nth-child(2n) {
+    background-color: aliceblue;
+}
+
+.movies .name {
+    word-wrap: break-word;
+    word-break: normal;
 }
