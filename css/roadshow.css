@@ -1,0 +1,56 @@
+.hidden {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+h2 {
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 4em;
+    /*font-family: 'Monoton';*/
+}
+
+.movie-list-img {
+    width: 30%;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2em;
+    /*background-color: #c3ff69;*/
+}
+
+.movie-list {
+    width: 90vw;
+    margin: 10vh auto;
+}
+
+.movie-list li {
+    list-style: none;
+}
+
+.movie-list section {
+    /*width: 60vw;*/
+    padding: 5vh 1vw;
+    border-radius: 2em;
+    /*height: 50vh;*/
+    /*background-color: #d8baff;*/
+    display: flex;
+    justify-content: space-around;
+}
+
+.movie-list section > div:nth-child(2) {
+    /*background-color: #a0ffbf;*/
+    width: 60%;
+    padding-top: 5vh;
+}
+
+.movie-list section > div:nth-child(2) h3 {
+    font-size: 2em;
+    margin-bottom: 1vh;
+}
+.movie-list section > div:nth-child(2) div {
+    overflow: scroll;
+    height: 30vh;
+}
