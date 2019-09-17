@@ -1,5 +1,9 @@
 /**/
 
+* {
+    box-sizing: border-box;
+}
+
 .box {
     width: 90vw;
     margin: auto;
@@ -19,6 +23,7 @@
 
 #money h2 {
     padding: 10px;
+    text-align: center;
 }
 
 #money table {
@@ -39,3 +44,55 @@
 }
 
 /**/
+
+.calen {
+    width: 80vw;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.calen h2 {
+    text-align: center;
+}
+
+.movie {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 20px;
+}
+
+.movie h3 {
+    word-break: break-all;
+    margin-bottom: 10px;
+}
+
+.movie a {
+    text-decoration: none;
+    color: blue;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.flexbox div {
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+/**/
+.time h2 {
+    text-align: center;
+}
+
+/**/
+
+.foot {
+    height: 50px;
+}
