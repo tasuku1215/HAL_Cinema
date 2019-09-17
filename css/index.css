@@ -39,36 +39,3 @@
 }
 
 /**/
-
-.calen {
-    width: 90%;
-    margin: auto;
-    margin-top: 20px;
-}
-
-.calen h2 {
-    text-indent: 1em;
-}
-
-.calen .date {
-    width: 100%;
-    text-align: left;
-    display: flex;
-    flex-flow: row nowrap;
-    overflow: scroll;
-}
-
-.date .movies {
-    width: 30%;
-    border: 1px solid black;
-    padding: 5px;
-}
-
-.date .movies:nth-child(2n) {
-    background-color: aliceblue;
-}
-
-.movies .name {
-    word-wrap: break-word;
-    word-break: normal;
-}
