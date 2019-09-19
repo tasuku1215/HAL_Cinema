@@ -1,4 +1,89 @@
+body {
+	background-color: rgb(53, 51, 51);
+	color: rgb(187, 181, 181);
+}
+
 a {
 	text-decoration: none;
 	color: black;
+}
+
+.content {
+	margin-top: 10px;
+	padding-left: 5%;
+	padding-right: 4%;
+}
+
+.about {
+	padding: 5px;
+}
+
+#container {
+	margin-top: 10px;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#slider {
+	padding: 5px;
+	border: 1px solid gray;
+}
+
+button {
+    /* 文字サイズを1.4emに指定 */
+    font-size: 1.4em;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 10px 30px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #248;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+	border-style: none;
+
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+	margin-top:15px;
+	margin-bottom: 20px;
+}
+
+button:hover {
+    /* 背景色を明るい青色に指定 */
+    background-color: rgb(40, 78, 204);
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+}
+
+h2 {
+	border-bottom: 1px solid gray;
+	margin-bottom: 10px;
+}
+
+.content #theatre {
+	display: block;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content .about {
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+footer {
+	color: black;
+	background-color: white;
 }
