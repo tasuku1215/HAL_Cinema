@@ -24,7 +24,7 @@
 
     <div id="main_box">
 
-        <p><a href="#">新規登録→</a></p>
+        <p><a href="feeAdd.php">新規登録→</a></p>
         <table border="1px">
             <tr>
                 <th>料金ID</th>
