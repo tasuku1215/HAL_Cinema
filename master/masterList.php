@@ -38,7 +38,7 @@
                 <td>aaaa</td>
                 <td>山田一郎</td>
                 <td>2019-01-01 18:00:00</td>
-                <td><a href="#">更新</a> <a href="#">削除</a></td>
+                <td><a href="くにまさますたー/masterEdit.php">更新</a> <a href="#">削除</a></td>
             </tr>
             <tr>
                 <td>2</td>
