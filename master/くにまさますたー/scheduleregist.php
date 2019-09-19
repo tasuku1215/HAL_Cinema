@@ -10,16 +10,6 @@
   <header>
     <h1>スケジュール登録</h1>
 </header>
-@isset($validationMsgs)
-<section id="errorMsg">
-    <p>以下のメッセージをご確認ください。</p>
-    <ul>
-        @foreach($validationMsgs as $msg)
-        <li>{{$msg}}</li>
-        @endforeach
-    </ul>
-</section>
-@endisset
 <section>
     <p>
         情報を入力し、登録ボタンをクリックしてください。
