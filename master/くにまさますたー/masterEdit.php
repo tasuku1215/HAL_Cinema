@@ -3,57 +3,32 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="author" content="Shinzo SAITO">
-    <title>部門情報編集　｜　ScottAdminMVC Sample</title>
-    <link rel="stylesheet" href="/ph34/scottadminkan/public/css/main.css" type="text/css">
+    <title>HALCinema | 管理者画面</title>
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
+    <link rel="stylesheet" href="../css/header.css" type="text/css">
 </head>
 
 <body>
-    <h1>管理情報編集</h1>
-    <header>
-        <h1>TOP</h1>
-        <p><a href="/ph34/scottadminkan/public/logout.php">ログアウト</a></p>
-    </header>
-    <nav id="breadcrumbs">
-        <ul>
-            <li><a href="/ph34/scottadminkan/public/goTop.php">TOP</a></li>
-            <li><a href="/ph34/scottadminkan/public/dept/showDeptList.php">部門リスト</a></li>
-            <li>部門情報編集</li>
-        </ul>
-    </nav>
-    {% if validationMsgs %}
-    <section id="errorMsg">
-        <p>以下のメッセージをご確認ください。</p>
-        <ul>
-            {% for msg in validationMsgs %}
-            <li>{{msg}}</li>
-            {% endfor %}
-        </ul>
-    </section>
-    {% endif %}
-    <section>
-        <p>
-            情報を入力し、更新ボタンをクリックしてください。
-        </p>
-        <form action="/ph34/scottadminkan/public/dept/deptEdit.html" method="post" class="box">
-            部門ID:&nbsp;{{dept.id}}<br>
-            <input type="hidden" name="editDpId" value="{{dept.id}}">
-            <label for="editDpNo">
-                部門番号&nbsp;<span class="required">必須</span>
-                <input type="number" min="10" max="90" step="10" id="editDpNo" name="editDpNo" value="{{dept.dpNo}}"
-                    required>
-            </label><br>
-            <label for="editDpName">
-                部門名&nbsp;<span class="required">必須</span>
-                <input type="text" id="editDpname" name="editDpName" value="{{dept.dpName}}" required>
-            </label><br>
-            <label for="editDpLoc">
-                所在地
-                <input type="text" id="editDpLoc" name="editDpLoc" value="{{dept.dpLoc}}">
-            </label><br>
-            <button type="submit">更新</button>
-        </form>
-    </section>
+    <?php
+        require_once '../header.php';
+    ?>
+
+    <div id="dummy2"></div>
+
+    <div id="main_box">
+        <h2>管理者新規登録</h2>
+        <p><a href="../index.php">管理者メニュー</a>　>　<a href="../masterList.php">管理者一覧</a>　>　新規登録</p>
+    </div>
+
+    <div id="dummy2"></div>
+
+    <div id="main_box">
+        <p>ログインID：<input type="text" name="loginId" value="aaaa"></p>
+        <p>管理者名：<input type="text" name="name" value="山田一郎"></p>
+        <p>パスワード：<input type="text" name="password" value="*******"></p>
+        <br>
+        <p><input type="submit" value="更新"></p>
+    </div>
 </body>
 
 </html>
