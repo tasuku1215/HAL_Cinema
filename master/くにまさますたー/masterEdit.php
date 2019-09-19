@@ -16,8 +16,8 @@
     <div id="dummy2"></div>
 
     <div id="main_box">
-        <h2>管理者新規登録</h2>
-        <p><a href="../index.php">管理者メニュー</a>　>　<a href="../masterList.php">管理者一覧</a>　>　新規登録</p>
+        <h2>管理者情報更新</h2>
+        <p><a href="../index.php">管理者メニュー</a>　>　<a href="../masterList.php">管理者一覧</a>　>　管理者情報更新</p>
     </div>
 
     <div id="dummy2"></div>
