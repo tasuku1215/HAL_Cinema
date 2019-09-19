@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#dummy{
+    height:100px;
+}
+
+#dummy2{
+    height:25px;
+}
+
+#main_box{
+    width:80%;
+    margin: auto;
+}
+
+
+/*------------------テーブル設定------------------*/
+table{
+  width: 100%;
+  border-collapse:separate;
+  border-spacing: 0;
+}
+
+table th:first-child{
+  border-radius: 5px 0 0 0;
+}
+
+table th:last-child{
+  border-radius: 0 5px 0 0;
+  border-right: 1px solid #3c6690;
+}
+
+table th{
+  text-align: center;
+  color:white;
+  background-color: #225588;
+  width: 6%;
+  padding: 10px 0;
+}
+
+table td{
+  text-align: center;
+  width: 6%;
+  padding: 10px 0;
+}
+
+table td:last-child{
+  border-right: 1px solid #a8b7c5;
+}
+
+table tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
+}
+
+table tr:last-child td:last-child {
+  border-radius: 0 0 5px 0;
+}
+
+#nav{
+    width:100%;
+    margin: auto;
+}
