@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>部門情報編集</h1>
+    <h1>管理情報編集</h1>
     <header>
         <h1>TOP</h1>
         <p><a href="/ph34/scottadminkan/public/logout.php">ログアウト</a></p>
