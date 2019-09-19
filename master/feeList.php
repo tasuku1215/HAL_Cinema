@@ -40,7 +40,7 @@
                 <td>1000</td>
                 <td>2019-01-01</td>
                 <td>2019-12-31</td>
-                <td><a href="#">更新</a> <a href="#">削除</a></td>
+                <td><a href="feeEdit.php">更新</a> <a href="#">削除</a></td>
             </tr>
             <tr>
                 <td>2</td>
