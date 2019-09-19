@@ -23,6 +23,7 @@
     <div id="dummy2"></div>
 
     <div id="main_box">
+        <p>管理者ID：1</p>
         <p>ログインID：<input type="text" name="loginId" value="aaaa"></p>
         <p>管理者名：<input type="text" name="name" value="山田一郎"></p>
         <p>パスワード：<input type="text" name="password" value="*******"></p>
