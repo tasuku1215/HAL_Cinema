@@ -24,7 +24,7 @@
 
     <div id="main_box">
 
-        <p><a href="くにまさますたー/movieregist.html">新規登録→</a></p>
+        <p><a href="くにまさますたー/movieregist.php">新規登録→</a></p>
         <table border="1px">
             <tr>
                 <th>映画ID</th>
