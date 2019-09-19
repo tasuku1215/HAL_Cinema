@@ -5,3 +5,15 @@
 table th {
 	text-align: left;
 }
+
+h2 {
+	text-align: center;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section {
+	padding-left: 5%;
+	padding-right: 5%;
+}
