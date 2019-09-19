@@ -14,8 +14,8 @@
     <div id="dummy2"></div>
 
     <div id="main_box">
-        <h2>管理者情報更新</h2>
-        <p><a href="index.php">管理者メニュー</a>　>　<a href="masterList.php">管理者一覧</a>　>　管理者情報更新</p>
+        <h2>スケジュール情報登録</h2>
+        <p><a href="index.php">管理者メニュー</a>　>　<a href="scheduleList.php">スケジュール一覧</a>　>　新規情報登録</p>
     </div>
 
     <div id="dummy2"></div>
@@ -24,6 +24,7 @@
         <p>映画名：<input type="text" name="loginId"></p>
         <p>スクリーン番号：
             <select name="screen" id="screen" required>
+                <option value="">--</option>
                 <option value="one">1</option>
                 <option value="two">2</option>
             </select>
