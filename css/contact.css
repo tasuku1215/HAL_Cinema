@@ -1,5 +1,40 @@
-.breadcrumb {
-	background-color: aquamarine;
-	-webkit-clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0 100%, 25% 50%, 0% 0%);
-	clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0 100%, 25% 50%, 0% 0%);
+/* スマホ版 */
+li {
+	background-color: gray;
+	width: 20%;
+	height: auto;
+
 }
+
+.now {
+	background-color: green;
+}
+
+.breadcrumb1 {
+	-webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+	clip-path: polygon(50% 100%, 0 0, 100% 0);
+
+}
+
+/* PC版 */
+/* li {
+	width: 20%;
+	height: auto;
+	object-fit: cover;
+	display: inline-block;
+} */
+
+/* .breadcrumb1 {
+	-webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0 100%);
+	clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0 100%);
+}
+.breadcrumb2 {
+	-webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+	clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+	margin-right: 10px;
+	margin-left: -75px;
+}
+.breadcrumb3 {
+	-webkit-clip-path: polygon(100% 0, 100% 50%, 100% 99%, 0% 100%, 25% 50%, 0% 0%);
+	clip-path: polygon(100% 0, 100% 50%, 100% 99%, 0% 100%, 25% 50%, 0% 0%);
+} */
