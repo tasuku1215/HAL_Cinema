@@ -1,93 +1,99 @@
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
 <head>
-  <meta charset="utf-8">
-  <title>映画情報登録ページ</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scala-1">
-  <link rel="stylesheet" href=>
-  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Monoton|Sacramento|Tangerine&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>HALCinema | 管理者画面</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/header.css" type="text/css">
+</head>
 <body>
-  <header>
-    <h1>スケジュール編集</h1>
-</header>
-<section>
-    <p>
-        情報を入力し、登録ボタンをクリックしてください。
-    </p>
-    <form action="/ph34/movieTheater/public/scheduleEdit.php" method="post">
-        <dl>
-            <dt>映画名</dt>
-            <dd>
-                <input type="text" id="movienama" name="movienama"  required>
-            </dd>
-            <dt>スクリーン番号</dt>
-            <dd>
-              <select name="screen" id="screen" required>
-              <option value="one">1</option>
-              <option value="two">2</option>
-              </select>
-            </dd>
-            <dt>上映日時</dt>
-            <dd>
-                <select name="month" id="month" required>
-                  <option value="">--</option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                  <option value="9">9</option>
-                  <option value="10">10</option>
-                  <option value="11">11</option>
-                  <option value="12">12</option>
-                </SELECT>
-                月　
-                <select name="day" id="month" required>
-                  <option value="">--</option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                  <option value="9">9</option>
-                  <option value="10">10</option>
-                  <option value="11">11</option>
-                  <option value="12">12</option>
-                  <option value="13">13</option>
-                  <option value="14">14</option>
-                  <option value="15">15</option>
-                  <option value="16">16</option>
-                  <option value="17">17</option>
-                  <option value="18">18</option>
-                  <option value="19">19</option>
-                  <option value="20">20</option>
-                  <option value="21">21</option>
-                  <option value="22">22</option>
-                  <option value="23">23</option>
-                  <option value="24">24</option>
-                  <option value="25">25</option>
-                  <option value="26">26</option>
-                  <option value="27">27</option>
-                  <option value="28">28</option>
-                  <option value="29">29</option>
-                  <option value="30">30</option>
-                  <option value="31">31</option>
-                </select>日
-            </dd>
-            <dt>上映時間</dt>
-            <dd>
-                <input type="time" id="movietime" name="movietime" step="1" required>
-            </dd>
+    <?php
+        require_once 'header.php';
+    ?>
 
-        </dl>
-        <button type="submit">登録</button>
-    </form>
+    <div id="dummy2"></div>
+
+    <div id="main_box">
+        <h2>スケジュール情報更新</h2>
+        <p><a href="index.php">管理者メニュー</a>　>　<a href="scheduleList.php">スケジュール一覧</a>　>　スケジュール情報更新</p>
+    </div>
+
+    <div id="dummy2"></div>
+
+    <div id="main_box">
+        <p>映画名：<input type="text" name="loginId" value="ショーシャンクの空に"></p>
+        <p>スクリーン番号：
+            <select name="screen" id="screen" required>
+                <option value="one" selected>1</option>
+                <option value="two">2</option>
+            </select>
+        </p>
+        <p>
+            上映日時：
+                <select name="month" id="month" required>
+                    <option value="">--</option>
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9" selected>9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                月
+                <select name="day" id="day" required>日
+                    <option value="">--</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20" selected>20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+                日
+        </p>
+        <p>上映時間：
+            <select name="hour" id="hour" required>
+                <option value="10" selected>10</option>
+            </select>時
+            <select name="hour" id="hour" required>
+                <option value="15" selected>15</option>
+
+            </select>
+        </p>
+        <br>
+        <p><input type="submit" value="更新"></p>
+    </div>
 </section>
 </body>
 </html>
