@@ -28,7 +28,7 @@ header h1 {
   font-family: 'Monoton';
 }
 
-header a {
+header a,header a::before,header a::after {
 	color: black;
 	text-decoration: none;
 }
