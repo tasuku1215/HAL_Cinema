@@ -15,8 +15,8 @@
     <div id="dummy2"></div>
 
     <div id="main_box">
-        <h2>映画情報登録</h2>
-        <p><a href="index.php">管理者メニュー</a>　
+        <h2>映画情報新規登録</h2>
+        <p><a href="index.php">管理者メニュー</a>　>　<a href="movieList.php">映画情報一覧</a>　>　新規登録</p>
     </div>
 
     <div id="dummy2"></div>
