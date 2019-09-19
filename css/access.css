@@ -13,3 +13,15 @@ section h2 {
     text-align: center;
     margin-top: 20px;
 }
+
+.about h3 {
+    text-align: center;
+}
+
+.about p {
+    padding-left: 1em;
+    box-sizing: border-box;
+    word-break: break-all;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
