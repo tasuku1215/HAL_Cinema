@@ -24,7 +24,7 @@
 
     <div id="main_box">
 
-        <p><a href="#">新規登録→</a></p>
+        <p><a href="くにまさますたー/scheduleregist.html">新規登録→</a></p>
         <table border="1px">
             <tr>
                 <th>スケジュールID</th>
@@ -40,7 +40,7 @@
                 <td>1</td>
                 <td>2019-09-20</td>
                 <td>10:15</td>
-                <td><a href="#">更新</a> <a href="#">削除</a></td>
+                <td><a href="くにまさますたー/scheduleEdit.html">更新</a> <a href="#">削除</a></td>
             </tr>
             <tr>
                 <td>2</td>
@@ -48,7 +48,7 @@
                 <td>1</td>
                 <td>2019-09-20</td>
                 <td>16:00</td>
-                <td><a href="#">更新</a> <a href="#">削除</a></td>
+                <td>更新 削除</td>
             </tr>
             <tr>
                 <td>3</td>
@@ -56,7 +56,7 @@
                 <td>2</td>
                 <td>2019-09-20</td>
                 <td>13:15</td>
-                <td><a href="#">更新</a> <a href="#">削除</a></td>
+                <td>更新 削除</td>
             </tr>
         </table>
     </div>
