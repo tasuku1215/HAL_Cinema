@@ -7,24 +7,23 @@
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <link rel="stylesheet" href="css/header.css" type="text/css">
 </head>
-
 <body>
     <?php
-        require_once '../header.php';
+        require_once 'header.php';
     ?>
 
     <div id="dummy2"></div>
 
     <div id="main_box">
         <h2>映画情報登録</h2>
-        <p><a href="index.php">管理者メニュー</a>
+        <p><a href="index.php">管理者メニュー</a>　
     </div>
 
     <div id="dummy2"></div>
 
     <div id="main_box">
         <p>映画名：<input type="text" name="moviename"></p>
-        <p>上映時間：<input type="time" name="movietime"></p>
+        <p>上映時間：<input type="time" name="movietime" step="1"></p>
         <p>監督名：<input type="text" name="directed"></p>
         <p>主演名：<input type="text" name="rePassword"></p>
         <p>放映年：<select name="year">
@@ -151,10 +150,11 @@
           <option value="2019">2019</option>
         </select>年
       </p>
-      <p>あらすじ:<textarea name="Synopsis"  id="Synopsis" rows="8" cols="80" required></textarea></p>
+      <p>あらすじ:</p>
+      <p><textarea name="Synopsis"  id="Synopsis" rows="8" cols="80" required></textarea></p>
       <p>画像：<input type="file" name="example" size="30"></p>
       <p>URL：<input type="text" name="url"></p>
-        <br>
+      <br>
         <p><input type="submit" value="登録"></p>
     </div>
 </body>
