@@ -40,7 +40,7 @@
                 <td>1</td>
                 <td>2019-09-20</td>
                 <td>10:15</td>
-                <td><a href="scheduleEdit.html">更新</a> <a href="#">削除</a></td>
+                <td><a href="scheduleEdit.php">更新</a> <a href="#">削除</a></td>
             </tr>
             <tr>
                 <td>2</td>
