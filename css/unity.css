@@ -28,9 +28,11 @@ header h1 {
   font-family: 'Monoton';
 }
 
-header a,header a::before,header a::after {
-	color: black;
-	text-decoration: none;
+header a,
+header a::before,
+header a::after {
+  color: black;
+  text-decoration: none;
 }
 
 header a,header a:hover,header a:visited {
@@ -39,5 +41,9 @@ header a,header a:hover,header a:visited {
 }
 
 footer {
+  border-top: 0.2px solid gray;
+  margin-top: 50px;
   text-align: center;
+  height: 50px;
+  line-height: 300%;
 }
