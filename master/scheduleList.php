@@ -24,7 +24,7 @@
 
     <div id="main_box">
 
-        <p><a href="くにまさますたー/scheduleregist.php">新規登録→</a></p>
+        <p><a href="scheduleregist.php">新規登録→</a></p>
         <table border="1px">
             <tr>
                 <th>スケジュールID</th>
@@ -40,7 +40,7 @@
                 <td>1</td>
                 <td>2019-09-20</td>
                 <td>10:15</td>
-                <td><a href="くにまさますたー/scheduleEdit.html">更新</a> <a href="#">削除</a></td>
+                <td><a href="scheduleEdit.html">更新</a> <a href="#">削除</a></td>
             </tr>
             <tr>
                 <td>2</td>
