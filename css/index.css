@@ -4,22 +4,143 @@
   box-sizing: border-box;
 }
 
+.s-wrap {
+  width: 100vw;
+  height: 340px;
+  background-color: white;
+  box-shadow: 0px 0px 3px gray;
+}
+
 .box {
-  width: 90vw;
+  width: 100vw;
   margin: auto;
 }
 
 .box img {
-  width: 90vw;
+  width: 100vw;
   height: 100%;
   box-shadow: 0px 0px 5px black;
 }
 
+.exp {
+  width: 90%;
+  margin: auto;
+}
+
+.mini-title {
+  max-width: 80%;
+  padding: 5px;
+  font-size: 12pt;
+  border: 1px solid maroon;
+  border-radius: 3px;
+  color: maroon;
+  text-align: center;
+}
+
+.exp p {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.exp .switch {
+  text-align: center;
+  font-size: 8pt;
+  letter-spacing: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  text-shadow: 0px 0px 5px gray;
+  color: white;
+}
+
+.exp .switch span {
+  color: gray;
+}
+
 /**/
+
+.calender {
+  width: 100vw;
+  background-color: white;
+  box-shadow: 0px 0px 3px indianred;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+
+.calen {
+  width: 80vw;
+  margin: auto;
+}
+
+.calen h2 {
+  text-align: center;
+}
+
+.date {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.date::before {
+  content: "〈";
+}
+.date::after {
+  content: "〉";
+}
+
+.movie {
+  width: 100%;
+  border: 1px solid indigo;
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 20px;
+  box-shadow: 0px 0px 3px darkorchid;
+}
+
+.movie h3 {
+  word-break: break-all;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 12pt;
+}
+
+.movie p {
+  font-size: 10pt;
+}
+
+.movie a {
+  text-decoration: none;
+  color: darkred;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.flexbox div {
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  margin: 20px 5px 0px 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 1px white;
+}
+
+/**/
+
+.money {
+  width: 100vw;
+  background-color: white;
+  box-shadow: 0px 0px 3px maroon;
+  padding: 10px 0;
+  margin-top: 30px;
+}
 
 #money {
   width: 80vw;
   margin: auto;
+  margin-bottom: 10px;
 }
 
 #money h2 {
@@ -45,54 +166,14 @@
 }
 
 /**/
-
-.calen {
-  width: 80vw;
-  margin: auto;
+#time {
+  width: 100vw;
+  background-color: white;
+  box-shadow: 0px 0px 3px firebrick;
+  padding: 10px 0;
   margin-top: 30px;
 }
 
-.calen h2 {
-  text-align: center;
-}
-
-.movie {
-  width: 100%;
-  border: 1px solid black;
-  border-radius: 5px;
-  margin: 10px 0px;
-  padding: 20px;
-  box-shadow: 0px 0px 3px black;
-}
-
-.movie h3 {
-  word-break: break-all;
-  margin-bottom: 10px;
-  background-color: rgba(255, 255, 255, 0.5);
-  text-align: center;
-}
-
-.movie a {
-  text-decoration: none;
-  color: blue;
-}
-
-.flexbox {
-  display: flex;
-}
-
-.flexbox div {
-  width: 30%;
-  border: 1px solid black;
-  border-radius: 5px;
-  text-align: center;
-  padding: 5px;
-  margin: 20px 5px 0px 5px;
-  background-color: rgba(255, 255, 255, 0.5);
-  box-shadow: 0px 0px 1px white;
-}
-
-/**/
 .time {
   width: 80vw;
   margin: auto;

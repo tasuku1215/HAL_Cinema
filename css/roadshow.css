@@ -1,57 +1,74 @@
 .hidden {
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 h2 {
-    margin-top: 5vh;
-    text-align: center;
-    font-size: 4em;
-    /*font-family: 'Monoton';*/
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25pt;
+  /* font-family: "Monoton"; */
 }
 
 .movie-list-img {
-    width: 30%;
-    height: 30vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 2em;
-    /*background-color: #c3ff69;*/
+  width: 100%;
+  height: 20vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* border-radius: 1em; */
+  box-shadow: 0px 0px 5px gray;
+  /*background-color: #c3ff69;*/
 }
 
 .movie-list {
-    width: 90vw;
-    margin: 10vh auto;
+  width: 90vw;
+  margin: 0px auto;
 }
 
 .movie-list li {
-    list-style: none;
+  list-style: none;
 }
 
 .movie-list section {
-    /*width: 60vw;*/
-    padding: 5vh 1vw;
-    border-radius: 2em;
-    /*height: 50vh;*/
-    /*background-color: #d8baff;*/
-    display: flex;
-    justify-content: space-around;
+  padding: 20px 1vw 10px;
+  margin-top: 20px;
+  /*width: 60vw;*/
+  /*height: 50vh;*/
+  /*background-color: #d8baff;*/
+  /* display: flex;
+  justify-content: space-around; */
+  background-color: white;
+  box-shadow: 0px 0px 5px gray;
 }
 
-.movie-list section > div:nth-child(2) {
-    /*background-color: #a0ffbf;*/
-    width: 60%;
-    padding-top: 5vh;
+.title {
+  font-size: 14pt;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.exp {
+  font-size: 10pt;
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* .movie-list section > div:nth-child(2) {
+  background-color: #a0ffbf;
+  width: 60%;
+  padding-top: 5vh;
 }
 
 .movie-list section > div:nth-child(2) h3 {
-    font-size: 2em;
-    margin-bottom: 1vh;
+  font-size: 2em;
+  margin-bottom: 1vh;
 }
 
 .movie-list section > div:nth-child(2) div {
-    overflow: scroll;
-    height: 30vh;
-}
+  overflow: scroll;
+  height: 30vh;
+} */
